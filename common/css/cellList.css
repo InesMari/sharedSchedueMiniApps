@@ -1,0 +1,102 @@
+.cellList{
+  margin-top: 10rpx;
+  padding: 0 20rpx;
+}
+.cellList .item{
+  line-height: 88rpx;
+  background: #fff;
+  overflow: hidden;
+  padding:0 30rpx;
+  border-radius: 8rpx;
+  margin-bottom: 20rpx;
+}
+.cellList .item .label{
+  font-weight: bold;
+  font-size: 28rpx;
+  float: left;
+}
+.cellList .item .content{
+  float: right;
+  color: #0379ff;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.cellList .item .title-lable{
+  font-weight: normal;
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+
+.listTable{
+  background: #fff;
+  border:1rpx solid #eee;
+  border-bottom: none;
+}
+.listTable .item{
+  float: left;
+  width: 50%;
+  border-bottom: 1rpx solid #eee;
+}
+.listTable .item .label,.listTable .itemTable .thead{
+  width: 50%;
+  height: 70rpx;
+  background: #c9c9c9;
+  float: left;
+  font-style: italic;
+  color: #000;
+  font-size: 24rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listTable .item .text{
+  width: 50%;
+  float: left;
+  background: #fff;
+  height: 70rpx;
+  text-align: center;
+  font-size: 24rpx;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.listTable .item.item100{
+  width: 100%;
+}
+.listTable .item100 .w25{
+  width: 25%;
+}
+.listTable .item100 .w75{
+  width: 75%;
+}
+.listTable .itemTable{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.listTable .itemTable .thead{
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-right: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+.listTable .itemTable .tbody{
+  float: left;
+  width: 75%;
+  padding-left: 25%;
+}
+.listTable .itemTable .tbody .item{
+  width: 100%;
+}
+.listTable .itemTable .tbody .item .label{
+  width: 33.3333%;
+}
+.listTable .itemTable .tbody .item .text{
+  width: 66.6666%;
+}
